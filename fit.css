@@ -81,12 +81,6 @@ main .tekstlinks {
     display: block;
 }
 
-main img:nth-child(2) {
-    max-height: 24em;
-    border: 15px solid black;
-    border-radius: 0px;
-    
-}
 
 main h3 {
     font-family: "fit", sans-serif;
@@ -103,6 +97,10 @@ main h3 {
     display: flex;
     margin-left: 0;
     margin-right: 12em;
+}
+
+.geenborder {
+    border-color: white !important;
 }
 
 
