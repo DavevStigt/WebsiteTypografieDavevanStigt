@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mv {
+    height: 25em;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0em;
+}
+
+.video-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+}
+
+ h1 {
+    font-family: "fit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 10em;
+    color: red;
+}
+
+main h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 900;
+    margin-bottom: 1em;
+
+}
+
+main p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+    font-style: normal;
+    max-width: 28em;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+main img:nth-child(1) {
+    width: 25em;
+    border: 15px solid black; 
+    margin-right: 6em;
+}
+
+main div {
+    display: flex;
+    margin-left: 10em;
+    
+}
+
+main .tekstcontainer {
+    flex-direction: column;
+    display: flex;
+}
+
+main .tekstlinks {
+    margin-left: 0em;
+    margin-right: 12em;
+    display: block;
+}
+
+main img:nth-child(2) {
+    max-height: 24em;
+    border: 15px solid black;
+    border-radius: 0px;
+    
+}
+
+main h3 {
+    font-family: "fit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 15em;
+    color: red;
+}
+
+.karakter {
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+    margin-right: 12em;
+}
+
+
+
